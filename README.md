@@ -7,3 +7,7 @@ For Granola (http://grano.la), we needed a way to communicate with our REST serv
 ## Example
 
 See the file example.py for example usage. Note that the handler will do domain verification as well (assuming the flag is set), but I don't have a server with an installed signed cert with the wrong domain to test against.
+
+## Useful informations
+
+This has been tested well on Python 2.6.2, but should work as far back as 2.4, assuming there is an ssl module (or an ssl_compat module.. we used to roll our own for older systems).
